@@ -1,0 +1,21 @@
+<?php
+$tanggal_lahir = "15 Mei"; // Tanggal lahir Arsyila Tsuraya Elsanum
+$tahun_lahir = 2005; // Tahun lahir Arsyila Tsuraya Elsanum
+$umur = date("Y") - $tahun_lahir; // Hitung umur Arsyila Tsuraya Elsanum
+$nama = "Arsyila Tsuraya Elsanum"; // Nama lengkap Arsyila Tsuraya Elsanum
+
+// Tampilkan ucapan selamat ulang tahun
+echo "Selamat ulang tahun, ".$nama."! <br>";
+echo "Semoga panjang umur, sehat selalu, dan sukses dalam segala hal. <br>";
+echo "Saat ini, kamu berusia ".$umur." tahun dan hari ini tanggal ".$tanggal_lahir." adalah hari spesialmu. <br>";
+?>
+
+Output 
+
+Selamat ulang tahun, Arsyila Tsuraya Elsanum!
+Semoga panjang umur, sehat selalu, dan sukses dalam segala hal.
+Saat ini, kamu berusia 18 tahun dan hari ini tanggal 15 Mei adalah hari spesialmu.
+
+NB:
+tanggal bisa diganti dengan umur sekarang
+tahun juga bisa diganti
